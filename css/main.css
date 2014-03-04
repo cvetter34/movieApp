@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #3d3d3d;
+}
+
+#main {
+  background-color: #3d3d3d;
+}
+
+#main h1 {
+  color: #ffffff;
+  font-family: 'Lobster Two', cursive;
+}
+
+#title {
+  text-align: center;
+}
+
+.detail h1 {
+  font-size: 220%;
+  display: inline;
+}
+
+.detail h2 {
+  font-size: 220%;
+  color: #6d6d6d;
+  display: inline;
+  margin-left: 15px;
+}
+
+.master {
+  border-right: 1px dotted black;
+}
+
+#poster {
+  text-align: center;
+  margin: 25px;
+}
+
+#rating {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.detail {
+  padding-left: 50px;
+}
+
+.horizontal {
+  border-top: 1px dotted black;
+  padding-top: 50px;
+}
+
+span.meter {
+  font-size: 130%;
+}
+
+span.score {
+  margin-right: 15px;
+  font-size: 160%;
+  color: #f0f;
+}
+
+img {
+  width: 300px;
+}
+
+form {
+  width: 500px;
+  margin: 20px auto;
+}
+
+#search {
+  width: 70%;
+  display: inline-block;
+}
+
+button {
+  padding: 10px 15px;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0);
+  color: #3d3d3d;
+}
+
+li:hover {
+  background-color: #93d6f7;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding: 12px 0 12px 12px;
+}
+
+li a {
+  font-size: 160%;
+}
+
+.master {
+  /*background-color: red;*/
+
+}
+
+.detail {
+  /*background-color: green;*/
+}
+
+.hide {
+  display: none;
+}
+
+.a_demo_two {
+    background-color:#6fba26;
+    padding:10px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    background-image: linear-gradient(bottom, rgb(100,170,30) 0%, rgb(129,212,51) 100%);
+    box-shadow: inset 0px 1px 0px #b2f17f, 0px 6px 0px #3d6f0d;
+    border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.a_demo_two:active {
+    top:7px;
+    background-image: linear-gradient(bottom, rgb(100,170,30) 100%, rgb(129,212,51) 0%);
+    box-shadow: inset 0px 1px 0px #b2f17f, inset 0px -1px 0px #3d6f0d;
+    color: #156785;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+    background: rgb(44,160,202);
+}
+
+.a_demo_two::before {
+    background-color:#072239;
+    content:"";
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-bottom:4px;
+    left:-2px;
+    top:5px;
+    z-index:-1;
+    border-radius: 6px;
+    box-shadow: 0px 1px 0px #fff;
+}
+
+.a_demo_two:active::before {
+    top:-2px;
+}

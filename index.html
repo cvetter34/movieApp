@@ -3,13 +3,47 @@
 <head>
   <title>Movies App</title>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="app.js"></script>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
-  <form>
-    <input type="text" name="somefield">
-    <button>Search</button>
-  </form>
-  <h1>Results</h1>
+  <header id="main">
+    <div class="row">
+    <h1>Movie Lab</h1>
+    </div>
+  </header>
+  <nav class="row">
+    <form>
+      <input id="search" type="text" name="somefield">
+      <button class="a_demo_two">Search</button>
+    </form>
+  </nav>
+  <div class="row horizontal">
+    <section class="master large-4 column">
+     <h1 class="hide"></h1>
+    </section>
+    <section class="detail large-8 column">
+      <h1 class="hide"></h1>
+      <div id="title">
+
+      </div>
+      <div id="poster">
+
+      </div>
+      <div id="rating">
+
+      </div>
+      <div id="synopsis">
+
+      </div>
+    </section>
+  </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
